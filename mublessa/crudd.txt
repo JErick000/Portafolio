@@ -1,0 +1,25 @@
+create database crudd;
+use crudd;
+
+create table marca(
+codmar varchar(5)primary key not null,
+nommar varchar(15) not null);
+
+create table producto(
+codigo int auto_increment primary key,
+nombre varchar(5) not null,
+precio varchar(15) not null,
+img text,
+codmar varchar(5) not null,
+
+CONSTRAINT fk_codmar FOREIGN KEY (codmar) REFERENCES marca(codmar)
+);
+
+
+insert into marca (codmar,nommar)
+values ('c0001','Atlas'),
+ ('c0002','Basd'),
+ ('c0003','Monday'),
+('c0004','Kori'),
+ ('c0005','Plus');
+SELECT * FROM marca

@@ -1,0 +1,273 @@
+/*ESTILOS PARA ESTRUCTURA HTML*/
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 1rem;
+
+    background-color: wheat;
+
+}
+
+
+
+header {
+
+    height: 100px;
+
+    background-color: white;
+
+    padding-top: 20px;
+
+    padding-left: 20px;
+
+}
+
+
+
+#contenedor {
+
+    margin: auto;
+
+    margin-top: 0px;
+
+    width: 80%;
+
+    background-color: white;
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav {
+    background: #dd6d04;
+    height: 80px;
+    width: 100%;
+}
+.enlace {
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo {
+    height: 40px;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 14px;
+    padding: 7px 5px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+/*ESTILOS PARA MENU*/
+li a.active,
+li a:hover {
+    background: #e7bc71;
+    transition: .5s;
+}
+.checkbtn {
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    .enlace {
+        padding-left: 30px;
+    }
+    nav ul li a {
+        font-size: 14px;
+    }
+}
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 40%;
+        height: 50vh;
+        background: #d7b330;
+        top: 100px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 20px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 14px;
+    }
+    li a:hover,
+    li a.active {
+        background: none;
+        color: rgb(78, 5, 5);
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+
+}
+#carbon {
+
+    clear: both;
+
+}
+
+
+
+h4 {
+
+    text-transform: uppercase;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: darkred;
+
+}
+
+
+
+p {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-align: justify;
+
+}
+
+
+
+#ventajas1 {
+
+    list-style-type: square;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-size: 14px;
+
+}
+
+
+
+h2 {
+
+    background: #e7bc71;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    height: 50px;
+
+    color: orangered;
+
+    font-size: 30px;
+
+    text-align: center;
+
+}
+
+
+
+.one {
+
+    margin: auto;
+
+    width: 90%;
+
+}
+/*ESTILOS PARA IMAGENES QUE SE AGRANDAN Y REDUCEN*/
+.producto {
+
+    width: 30%;
+
+    height: 300px;
+
+    margin: 1%;
+
+    border: 1px solid #4B8B93;
+
+    border-radius: 5px;
+
+    text-align: center;
+
+    float: left;
+
+}
+
+
+
+.producto img {
+
+    width: 90%;
+
+    height: 240px;
+
+    cursor: pointer;
+
+}
+
+
+
+.producto h3 {
+
+    color: #4B8B93;
+
+    font-size: 15px;
+
+    margin: 20px;
+
+}
+#tabla {
+
+    width: 100%;
+
+    background-color: #000000;
+
+    color: #FFFFFF;
+
+    text-align: center;
+
+}
+
+
+
+#tabla tr td {
+
+    width: 50%;
+
+}
+
+
+
+.logo1 {
+
+    height: 50px;
+
+    border-radius: 5px;
+
+    border: 1px dotted darkred;
+
+}

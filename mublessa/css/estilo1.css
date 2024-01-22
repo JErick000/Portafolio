@@ -1,0 +1,61 @@
+/*completo*/
+#cmp{
+    width: 90%;
+    margin-left: 5%;
+    
+}
+/*-------------------*/
+
+/*logo*/
+#head{
+    width:20%;
+    height: 10%;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border: 1px;
+}
+/*--------------------*/
+
+/*article*/
+
+
+.imga{
+    float: left;  
+    width: 100%;
+    padding-left: 8%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+    
+}
+.mue{
+    float: left;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    width: auto;
+    margin-left: 10%;
+}
+.mutxt{
+   margin-top: 5%;
+   text-align: center;
+}
+/*-----------------*/
+#h2{
+    text-align: center;
+    margin-bottom: 3%;
+}
+/*acordion*/
+.accordion{
+    width: 80%;
+    margin-left: 8%;
+}
+/*barra*/
+.navbar-brand{
+
+    margin-left: 1%;
+}
+
+
+/*registro*/
